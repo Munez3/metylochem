@@ -1,0 +1,37 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * t */
+
+ $breakpointXs: 600px;
+ $breakpointSm: 768px;
+ $breakpointMd: 992px;
+ $breakpointLg: 1200px;
+ $breakpointXl: 1500px;
+
+ $gray: #4a4a4a;
+ $purple: #402773;
+ $pink: #af4292;
+ $green: #4eb36e;
+
+ $font: "ingra",sans-serif;
+
+
+ @mixin media($width){
+  @media screen and (min-width: $width){
+    @content;
+  }
+ }
+
+
+ @import "compass/reset";
+ @import 'sub/reset';
+ @import 'sub/layout';
+ @import 'sub/universal';
+ @import 'sub/header';
+ @import 'sub/slider';
+ @import 'sub/offer';
+ @import 'sub/footer';
+
+
+ div#__bs_notify__{display: none !important;}

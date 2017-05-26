@@ -1,0 +1,30 @@
+.slider{
+   height: 520px;
+   background: no-repeat center;
+   background-size: cover;
+
+   &__slogan{
+      position: relative;
+      width: 330px;
+      height: 330px;
+      background-image: linear-gradient(to right, $pink, $purple);
+      border-radius: 50%;
+      color: #fff;
+      opacity: 0.95;
+   }
+}
+
+
+.circle-box{
+   position: absolute;
+   width: 400px;
+   height: 400px;
+   z-index: -1;
+}
+
+.circle{
+   fill: transparent;
+   stroke-width: 30;
+   stroke-linecap: round;
+   stroke-dasharray: 1030;
+}

@@ -1,0 +1,27 @@
+.footer{
+
+   &__contact{
+      background: $green url('../images/pattern.png') no-repeat center 60%;
+      background-blend-mode: darken;
+   }
+
+   &__contact-data p{
+      font-size: 20px;
+   }
+
+   &__map{
+      height: 400px;
+   }
+
+   &__credits{
+      padding: 10px 0;
+      font-size: 12px;
+   }
+
+   .roman{
+      margin-left: 15px;
+      padding-left: 15px;
+      border-left: 1px solid $gray;
+      vertical-align: middle;
+   }
+}

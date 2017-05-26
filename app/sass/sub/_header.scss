@@ -1,0 +1,39 @@
+.header{
+  // position: fixed;
+  // left: 0;
+  // top: 0;
+  padding: 20px 0;
+  // width: 100%;
+  background-color: #fff;
+  // z-index: 9999;
+
+   &__contact{
+      float: right;
+      padding: 15px 0;
+   }
+
+   &__contact-item{
+      float: left;
+      margin-left: 20px;
+      color: $pink;
+   }
+
+   &__contact-icon{
+      margin-right: 5px;
+      display: inline-block;
+      width: 38px;
+      height: 32px;
+      background: no-repeat center;
+      vertical-align: middle;
+      &--phone{background-image: url('../images/phone.png');}
+      &--mail{background-image: url('../images/mail.png');}
+   }
+}
+
+.logo{
+  float: left;
+  width: 130px;
+  @include media($breakpointMd){
+    width: auto;
+  }
+}

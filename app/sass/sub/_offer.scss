@@ -1,0 +1,10 @@
+.offer{
+   background: $purple url('../images/pattern.png') no-repeat center 10%;
+   background-blend-mode: soft-light;
+
+   &__list{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 50px;
+   }
+}
